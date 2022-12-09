@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*
- *main: Print using puts function
- *Return: Always 0 (Success)
+/**
+ * main - Print using puts function
+ (*
+ * Description: The main function takes a string and prints using puts)
+ *Return: Return value is 0
  */
 int main(void)
 {
