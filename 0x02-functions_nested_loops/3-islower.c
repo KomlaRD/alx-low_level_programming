@@ -5,21 +5,19 @@
 * is a lowercase character)
 * @c: input character
 *
-* Return: Always 0
+* Return: if input c is lowercase, return 1 else return 0
 */
 
 #include "main.h"
 
 int _islower(int c)
 {
-	if (_islower(c) == true)
+	if (c >= 97 && c <= 122)
 	{
-		_putchar("1\n");
+		return (1);
 	}
 	else
 	{
-		_putchar("0\n");
+		return (0);
 	}
-
-	return (0);
 }
