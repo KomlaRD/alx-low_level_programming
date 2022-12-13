@@ -1,7 +1,7 @@
 /**
  * main- print out putchar
 (* Description: function to print out putchar using a defined
-header without standard libraries)
+* header without standard libraries)
 *
 * Return: return 0
 */
