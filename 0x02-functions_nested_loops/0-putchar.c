@@ -9,9 +9,11 @@ header without standard libraries)
 
 int main(void)
 {
-	char value = "_putchar";
+	char value[] = "_putchar";
 
-	for (value = 0; value < 8; value++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
 		_putchar(value[c]);
 	}
