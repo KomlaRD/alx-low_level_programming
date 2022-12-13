@@ -4,6 +4,8 @@
 (* Description: Given an integer n,
 * compute the absolute value)
 *
+* @n: integer value
+*
 * Return: return 0
 */
 
