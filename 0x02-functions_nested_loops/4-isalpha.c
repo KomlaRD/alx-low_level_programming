@@ -4,6 +4,8 @@
 (* Description: Function to check if an input is
 * an alphabet lowercase or uppercase)
 *
+* @c: character input
+*
 * Return: 1 if input c is a letter, lowercase or uppercase, otherwise 0
 */
 
