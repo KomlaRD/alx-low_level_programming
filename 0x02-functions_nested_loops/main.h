@@ -3,4 +3,4 @@
 )
 */
 
-int __putchar(char c);
+int _putchar(char c);
