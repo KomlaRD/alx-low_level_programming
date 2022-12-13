@@ -12,21 +12,28 @@
 * -1 if n is less than 0
 */
 
+#include "main.h"
+
 int print_sign(int n)
 {
+	char op;
+
 	if (n > 0)
 	{
-		_putchar("+");
+		op = '+';
+		_putchar(op);
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_putchar("0");
+		op = '0';
+		_putchar(op);
 		return (0);
 	}
 	else
 	{
-		_putchar("-");
+		op = '-';
+		_putchar(op);
 		return (-1);
 	}
 	_putchar('\n');
