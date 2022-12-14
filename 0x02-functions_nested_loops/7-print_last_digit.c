@@ -18,7 +18,7 @@ int print_last_digit(int n)
 		n = -n;
 		i = n % 10;
 	}
-	else if (i < 0)
+	else if (int i < 0)
 	{
 		i = -i;
 
