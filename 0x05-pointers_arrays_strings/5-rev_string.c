@@ -9,10 +9,8 @@
  */
 void rev_string(char *s)
 {
-	int i, lengthOfString, n;
-	char c1, c2;
+	int i = 0, lengthOfString;
 
-	i = 0;
 	lengthOfString = _strlen(s) - 1;
 
 	while (lengthOfString > i)
@@ -51,7 +49,7 @@ int _strlen(char *s)
  */
 void swap_char(char *c1, char *c2)
 {
-	char p = *a;
-	*a = *b;
-	*b = p;
+	char p = *c1;
+	*c1 = *c2;
+	*c2 = p;
 }
