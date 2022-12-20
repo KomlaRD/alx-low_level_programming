@@ -12,6 +12,10 @@ void print_rev(char *s)
 	int i = 0;
 	int lengthOfString = 0;
 
+	for (lengthOfString = 0; s[lengthOfString] != '\0'; lengthOfString++)
+	{
+	}
+
 	for (i = lengthOfString - 1 ; i >= 0; i--)
 	{
 		_putchar(s[i]);
